@@ -37,7 +37,7 @@ The goal is to provide accurate, up-to-the-minute environmental insights that ca
 | Security         | Azure Key Vault                               |
 
 
-# 🖼️ Dashboard preview available in the /powerbi/WeatherReport.pbix file.
+# 🖼️ Dashboard preview 
 
 <img width="637" height="331" alt="image" src="https://github.com/user-attachments/assets/e78d3327-8b5c-40d4-9dd9-45385109439d" />
 
