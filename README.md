@@ -6,8 +6,9 @@ This project simulates a real-world scenario where weather and air quality data 
 The goal is to provide accurate, up-to-the-minute environmental insights that can be used for public safety, environmental monitoring, or operational decision-making.
 
 
-🎯 Business Problem
-A smart city organization wants to monitor live weather and pollution conditions to:
+# 🎯 Business Problem
+
+### A smart city organization wants to monitor live weather and pollution conditions to:
 
 🚨 Detect and act on hazardous air quality in real time
 
@@ -41,7 +42,7 @@ A smart city organization wants to monitor live weather and pollution conditions
 <img width="637" height="331" alt="image" src="https://github.com/user-attachments/assets/e78d3327-8b5c-40d4-9dd9-45385109439d" />
 
 # 📊 Power BI Dashboard
-The final dashboard provides rich, real-time insights, including:
+### The final dashboard provides rich, real-time insights, including:
 
 🌡️ Current Weather Conditions
 
@@ -68,10 +69,25 @@ Supports batch and streaming delivery to consumers
 ### ⚙️ Streaming ETL & Processing
 Databricks notebook processes, validates, and sends enriched data to Kusto DB
 
-Optional structured streaming in micro-batches every 30 seconds
+structured streaming in micro-batches every 30 seconds
 
 ### 🔐 Secure Cloud Architecture
 All API keys and Event Hub credentials managed via Azure Key Vault
+
+
+# 📈 Business Impact
+### This real-time Azure-based data pipeline enables organizations to:
+
+Make instant decisions on severe weather or pollution events
+
+Replace manual environmental monitoring with automated analytics
+
+Scale across multiple locations for smart city or public health needs
+
+Reduce risk with faster alerting and reliable forecasting
+
+
+
 
 
 
