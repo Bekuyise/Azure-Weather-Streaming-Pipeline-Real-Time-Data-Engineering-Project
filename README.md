@@ -6,3 +6,74 @@ This project simulates a real-world scenario where weather and air quality data 
 The goal is to provide accurate, up-to-the-minute environmental insights that can be used for public safety, environmental monitoring, or operational decision-making.
 
 
+🎯 Business Problem
+A smart city organization wants to monitor live weather and pollution conditions to:
+
+🚨 Detect and act on hazardous air quality in real time
+
+🌐 Centralize data from  Chennai geographic location
+
+📊 Deliver live dashboards and alerts for public and internal stakeholders
+
+
+# 🏗️ Architecture Diagram
+📌 The following diagram outlines the complete solution:
+
+<img width="1200" height="675" alt="Architecture daigram" src="https://github.com/user-attachments/assets/212ea690-93f6-4498-b244-3b02ad32aae4" />
+
+
+# Tools/technology used
+
+| Component        | Technology                                    |
+| ---------------- | --------------------------------------------- |
+| Weather Data API | [weatherapi.com](https://www.weatherapi.com/) |
+| Ingestion Layer  | Azure Functions (Timer Trigger)               |
+| Streaming Layer  | Azure Event Hub                               |
+| Processing Layer | Azure Databricks (PySpark)                    |
+| Storage Layer    | Azure Kusto DB (ADX)                          |
+| Visualization    | Power BI                                      |
+| Alerting         | Azure Data Activator + Outlook Email          |
+| Security         | Azure Key Vault                               |
+
+
+# 🖼️ Dashboard preview available in the /powerbi/WeatherReport.pbix file.
+
+<img width="637" height="331" alt="image" src="https://github.com/user-attachments/assets/e78d3327-8b5c-40d4-9dd9-45385109439d" />
+
+# 📊 Power BI Dashboard
+The final dashboard provides rich, real-time insights, including:
+
+🌡️ Current Weather Conditions
+
+🧪 Air Quality Index (AQI)
+
+⚠️ Live Alerts (Weather Warnings)
+
+📅 3-Day Forecast
+
+📍 Location-wise Trends and Metrics
+
+
+
+# ✅ Key Features Delivered
+
+### 🔁 Real-Time Data Ingestion
+Automated ingestion from Weather API every 30 seconds using Azure Function
+Flattened + enriched JSON data from multiple API endpoints (current, forecast, alerts)
+
+### 📡 Event-Driven Streaming
+Data published to Azure Event Hub in structured format
+Supports batch and streaming delivery to consumers
+
+### ⚙️ Streaming ETL & Processing
+Databricks notebook processes, validates, and sends enriched data to Kusto DB
+
+Optional structured streaming in micro-batches every 30 seconds
+
+### 🔐 Secure Cloud Architecture
+All API keys and Event Hub credentials managed via Azure Key Vault
+
+
+
+
+
