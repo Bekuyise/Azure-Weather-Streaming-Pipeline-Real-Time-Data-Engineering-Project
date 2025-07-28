@@ -17,8 +17,9 @@ The goal is to provide accurate, up-to-the-minute environmental insights that ca
 📊 Deliver live dashboards and alerts for public and internal stakeholders
 
 
-# 🏗️ Architecture Diagram
-📌 The following diagram outlines the complete solution:
+# 🏗️ Architecture Diagram Solution 
+
+
 
 <img width="1200" height="675" alt="Architecture daigram" src="https://github.com/user-attachments/assets/212ea690-93f6-4498-b244-3b02ad32aae4" />
 
