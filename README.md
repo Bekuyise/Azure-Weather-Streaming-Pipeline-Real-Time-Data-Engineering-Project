@@ -1,23 +1,23 @@
-# 🌦️ Azure Weather Streaming Pipeline – Real-Time Data Engineering Project(Weather Streaming)
+#  Azure Weather Streaming Pipeline – Real-Time Data Engineering Project(Weather Streaming)
 
-# 🚀 Project Overview
+#  Project Overview
 This project simulates a real-world scenario where weather and air quality data is ingested, processed, and visualized in real time using Microsoft Azure. Built as an end-to-end cloud-native data engineering pipeline, the solution leverages multiple Azure services for ingestion, streaming, transformation, alerting, and visualization.
 
 The goal is to provide accurate, up-to-the-minute environmental insights that can be used for public safety, environmental monitoring, or operational decision-making.
 
 
-# 🎯 Business Problem
+# Business Problem
 
 ### A smart city organization wants to monitor live weather and pollution conditions to:
 
-🚨 Detect and act on hazardous air quality in real time
+ Detect and act on hazardous air quality in real time
 
-🌐 Centralize data from  Chennai geographic location
+ Centralize data from  Chennai geographic location
 
-📊 Deliver live dashboards and alerts for public and internal stakeholders
+ Deliver live dashboards and alerts for public and internal stakeholders
 
 
-# 🏗️ Architecture Diagram Solution 
+# Architecture Diagram Solution 
 
 
 
@@ -38,45 +38,45 @@ The goal is to provide accurate, up-to-the-minute environmental insights that ca
 | Security         | Azure Key Vault                               |
 
 
-# 🖼️ Dashboard preview 
+#  Dashboard preview 
 
 <img width="637" height="331" alt="image" src="https://github.com/user-attachments/assets/e78d3327-8b5c-40d4-9dd9-45385109439d" />
 
-# 📊 Power BI Dashboard
+#  Power BI Dashboard
 ### The final dashboard provides rich, real-time insights, including:
 
-🌡️ Current Weather Conditions
+ Current Weather Conditions
 
-🧪 Air Quality Index (AQI)
+ Air Quality Index (AQI)
 
-⚠️ Live Alerts (Weather Warnings)
+ Live Alerts (Weather Warnings)
 
-📅 3-Day Forecast
+ 3-Day Forecast
 
-📍 Location-wise Trends and Metrics
+ Location-wise Trends and Metrics
 
 
 
-# ✅ Key Features Delivered
+#  Key Features Delivered
 
-### 🔁 Real-Time Data Ingestion
+###  Real-Time Data Ingestion
 Automated ingestion from Weather API every 30 seconds using Azure Function
 Flattened + enriched JSON data from multiple API endpoints (current, forecast, alerts)
 
-### 📡 Event-Driven Streaming
+###  Event-Driven Streaming
 Data published to Azure Event Hub in structured format
 Supports batch and streaming delivery to consumers
 
-### ⚙️ Streaming ETL & Processing
+###  Streaming ETL & Processing
 Databricks notebook processes, validates, and sends enriched data to Kusto DB
 
 structured streaming in micro-batches every 30 seconds
 
-### 🔐 Secure Cloud Architecture
+###  Secure Cloud Architecture
 All API keys and Event Hub credentials managed via Azure Key Vault
 
 
-# 📈 Business Impact
+#  Business Impact
 ### This real-time Azure-based data pipeline enables organizations to:
 
 Make instant decisions on severe weather or pollution events
